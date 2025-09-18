@@ -2,6 +2,7 @@
 #include <iostream>
 #include<algorithm>
 using namespace std;
+//better solution----
 int LongSubarrayWithSumK(vector <int> arr, long long k){
     map <long long, int> preSumMap;
     long long sum =0;
