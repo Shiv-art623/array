@@ -4,10 +4,9 @@
 using namespace std;
 pair <int , int > Twosum(vector <int> &arr, long long targ){
     for(int i=0; i<arr.size(); i++){
-        for(int j=0; j<arr.size(); j++){
-        if(i==j) continue;
-        
-        else if (arr[i]+arr[j]==targ){
+        for(int j=i+1; j<arr.size(); j++){
+    
+         if (arr[i]+arr[j]==targ){
         return {i, j};
         }
         }
