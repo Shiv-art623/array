@@ -33,3 +33,4 @@ int main(){
 //TC --
 // *when we use ordered map ---- O(NlogN)
 // *when we use unordered map --- * Best case/Average case--O(N)      *Worst case -- O(n^2)
+// SC --O(N)
