@@ -2,6 +2,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+//Better Solution--
 pair <int , int > Twosum(vector <int> &arr, long long targ){
     for(int i=0; i<arr.size(); i++){
         for(int j=i+1; j<arr.size(); j++){
@@ -33,4 +34,5 @@ pair <int , int > Twosum(vector <int> &arr, long long targ){
     cout<<"Indices  "<<result.first <<"   and   "<<result.second<<endl;
 return 0;
     }
-
+    //Time complexity-- O(N^2)
+    //Space complexity-- 

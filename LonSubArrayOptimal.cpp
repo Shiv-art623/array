@@ -2,6 +2,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+// Optimal Solution-- (Zero+Posotive)
 int LonSubArray(vector <int> &arr, long long k){
     int left =0;
     int right =0;
@@ -35,4 +36,7 @@ int main(){
         cin>>arr[i];
     }
     cout<<LonSubArray(arr,k);
+    return 0;
 }
+//Time Complexity-- at Worst case - O(2N)
+//Space Complexity-- O(1)

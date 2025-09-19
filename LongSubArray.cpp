@@ -2,7 +2,7 @@
 #include <iostream>
 #include<algorithm>
 using namespace std;
-//better solution----
+//better solution----(Zero+Negative)
 int LongSubarrayWithSumK(vector <int> arr, long long k){
     map <long long, int> preSumMap;
     long long sum =0;
@@ -38,3 +38,7 @@ int main(){
     cout<<LongSubarrayWithSumK(arr,k);
     return 0;
 }
+//Time complexity -- 
+// **when we use ordered map - O(NlogN)    **when we use unordered map - O(N^2)
+
+//Space complexity-- O(n)

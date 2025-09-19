@@ -1,6 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 #include <algorithm>
+//Using Hashing----
 using namespace std;
 string TwoSum(vector <int> arr, int n, int target){
     map <int ,int> mpp;
@@ -29,3 +30,6 @@ int main(){
     cout<<TwoSum(arr,n,target);
     return 0;
 }
+//TC --
+// *when we use ordered map ---- O(NlogN)
+// *when we use unordered map --- * Best case/Average case--O(N)      *Worst case -- O(n^2)
