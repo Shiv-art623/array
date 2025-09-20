@@ -24,3 +24,5 @@ int main(){
     cout<<MajorityElement(arr,n);
     return 0;
 }
+//Tc- when we use ordered map - O(nlogn)+O(n)           when we use unordered map O(n)+o(n)
+// SC-- O(n) == when array contains unique elements
