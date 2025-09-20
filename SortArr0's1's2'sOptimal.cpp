@@ -35,3 +35,5 @@ int main(){
     }
     return 0;
 }
+//Tc - O(n)
+//SC - O(1)
