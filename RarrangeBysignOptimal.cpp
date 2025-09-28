@@ -18,7 +18,8 @@ vector <int> ReArrangeBySign( vector<int> &arr, int n){
         return res;
         
     }
-    int main(){
+   
+      int main(){
     int n;
     cout<<"enter the size of the array"<<endl;
     cin>>n;
