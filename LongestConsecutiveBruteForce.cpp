@@ -33,5 +33,5 @@ int main(){
     }
     cout<<LongestConsecutive(arr,n);
 }
-//TC - Nearly O(n)
+//TC - Nearly O(n^2)
 //SC - O(1)
