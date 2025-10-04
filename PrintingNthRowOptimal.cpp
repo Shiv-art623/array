@@ -13,3 +13,5 @@ using namespace std;
   }
   return 0;
  }
+ //TC - O(n)
+ //SC - O(1)
