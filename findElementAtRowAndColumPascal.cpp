@@ -3,7 +3,6 @@
 using namespace std;
 long long  ReturnElement(int n, int r){
     long long ans = 1;
-    cout<<ans;
     for(int i =0; i<r; i++){
         ans = ans*(n- i);
         ans = ans/(i+1);
