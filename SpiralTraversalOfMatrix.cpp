@@ -16,8 +16,8 @@ vector<int> SpiralMatrix(vector<vector <int>> &matrix){
         for(int i = top; i<=bottom; i++){
             ans.push_back(matrix[i][right]);
         }
-        if(top<=bottom){
         right--;
+        if(top<=bottom){
         for(int i = right; i>=left; i--){
             ans.push_back(matrix[bottom][i]);
         }

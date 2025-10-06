@@ -51,4 +51,4 @@ int main(){
 
 }
 // TC - O((n*m )*(n+m)+(n*m))
-// SC - O(1)
+// SC - O(1) 
