@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-pair <int, int> FindMissingAndRepeatingElement( long long arr[], int n){
+void FindMissingAndRepeatingElement( long long arr[], int n){
     int miss = -1;
     int repea = -1;
     for(int i = 1; i<=n; i++){
@@ -11,15 +11,18 @@ pair <int, int> FindMissingAndRepeatingElement( long long arr[], int n){
          if(arr[j]== i){
             count++;
          }
+        }
          if (count == 2) {repea = i;}
          else if(count == 0) {miss = i;}
          if (miss != -1 && repea != -1){
             break;
          }
 
-        }
+        
     }
-    return {miss, repea};
+    cout<<miss<<"  "<<repea;
+
+
 }
 int main(){
     int n;
@@ -28,8 +31,8 @@ int main(){
     for(int i =0; i<n; i++){
         cin>> arr[i];
     }
- pair<int, int> ans = FindMissingAndRepeatingElement(arr, n);
- cout<<ans.first<<"  "<<ans.second<<endl;
+  FindMissingAndRepeatingElement(arr, n);
+ 
  return 0;
 }
 // Tc - O(n^2)
