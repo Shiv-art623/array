@@ -34,6 +34,6 @@ int main(){
   FindMissingAndRepeatingElement(arr, n);
  
  return 0;
-}
+} 
 // Tc - O(n^2)
 // SC - O(1)
