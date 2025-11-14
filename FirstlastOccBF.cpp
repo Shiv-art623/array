@@ -25,3 +25,4 @@ int main(){
     cout<< ans[0] <<" "<<ans[1];
     return 0;
 }
+//TC - (N)
