@@ -25,4 +25,4 @@ int PeakValue(vector <int> &arr, int n){
     cout<<PeakValue(arr,n);
     return 0;
 }
-// TC = O(n)
+// TC = O(logn)
