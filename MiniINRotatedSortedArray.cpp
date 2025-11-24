@@ -31,4 +31,4 @@ int main(){
     cout<<FindMin(arr);
     return 0;
 }
-//TC - O(logn)
+//TC - O(logn )
