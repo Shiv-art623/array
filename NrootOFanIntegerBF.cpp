@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//O(N) instead of this we can use a function which will give i^n and has time complexity O(logn)
 int func(int i, int n){
     int ans =1;
     for(int j=1; j<=n; j++ ){
@@ -22,4 +22,5 @@ int main(){
     cout<<NthRoot(n,m);
     return 0;
 }
-//TC = O(m)
+//TC = O(m*n) iterative approach for finding i^n
+//TC = O(m* logn) 
