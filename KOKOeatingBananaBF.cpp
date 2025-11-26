@@ -30,3 +30,4 @@ int main(){
     cout<<countBanana(arr,hr);
     return 0;
 }
+//Time complexity O(maxele(arr)*n)   this code will end up with time limit exceed problem
