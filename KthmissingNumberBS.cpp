@@ -23,4 +23,4 @@ int main(){
     cin>>k;
     cout<<KthMissingno(arr,k);
 }
-//TC = O(logn)
+//TC = O(logn) // we could also use high+1+k
