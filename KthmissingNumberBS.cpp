@@ -10,7 +10,7 @@ int KthMissingno(vector<int> &arr, int k){
         if(missing <k) low = mid+1;
         else high = mid-1;
     }
-    return low+k;
+    return low+k;   // we could also use high+1+k
 }
 int main(){
     int n;
@@ -21,6 +21,6 @@ int main(){
     }
     int k;
     cin>>k;
-    cout<<KthMissingno(arr,k);
+    cout<<KthMissingno(arr,k); 
 }
-//TC = O(logn) // we could also use high+1+k
+//TC = O(logn) 
